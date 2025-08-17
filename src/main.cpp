@@ -266,6 +266,7 @@ void setup() {
   } while (display.nextPage());
 
   Serial.println("Xong!");
+  display.hibernate();
 }
 
 void loop() {
